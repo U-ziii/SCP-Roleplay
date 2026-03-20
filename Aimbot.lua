@@ -119,7 +119,7 @@ end
 -- Run the script after key verification
 local function runMainScript()
     -- Your original script logic here
-    local Games = loadstring(game:HttpGet("https://anomaly.cool/scripts/scp-rp.lua"))()
+    local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/Rynthara/MyScripts/refs/heads/main/RynSCP"))()
 
     for PlaceID, Execute in pairs(Games) do
         if PlaceID == game.PlaceId then
